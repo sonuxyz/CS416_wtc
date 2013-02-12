@@ -6,4 +6,8 @@
  *      Author: Jonas Schreiber
  */
 
+#include <stdlib.h>
 
+void wtc_proc(char* filename) {
+	return;
+}

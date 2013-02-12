@@ -5,5 +5,9 @@
  *  Created on: Feb 5, 2013
  *      Author: Jonas Schreiber
  */
+ 
+#include <stdlib.h>
 
-
+void wtc_btproc(char* filename) {
+	return;
+}
