@@ -52,10 +52,27 @@ void print_matrix() {
     }
 }
 
+
+
+
 int main(int argc, char *argv[]) {
+
+
+
 	//TESTING
 	wtc_thr("/ilab/users/pbai/Desktop/inputx.in");
+
 	return 0;
+
+
+
+
+
+
+
+
+
+
 
 	//check number of arguments, that argv[0] is in range 1-4, and that argv[2] is a file that can be opened
 	if (argc != 2)

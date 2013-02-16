@@ -1,46 +1,7 @@
-/*
- * wtc_proc.c
- *
- *	This class determines transitive closure of a directed graph with process-level concurrency, without the use of a queue.
- *  Created on: Feb 5, 2013
- *      Author: Jonas Schreiber
- */
-
-#include <stdlib.h>
 #include "wtc.h"
 
-void wtc_proc(char* filename) {
-	return;
-}
-
-int **matrix;
-
-int main(FILE *file) {
-	FILE *graph = fopen(*file, "r");
-	int numThreads;
-	fscanf(graph, "%d", &numThreads);
-	int numVertices;
-	fscanf(graph, "%d", &numVertices);
-
-	if(numThreads <= 0 || numThreads > numVertices)
-	{
-		printf("Error: The number of threads must be greater than 0 and less than the number of vertices.");
-		exit(1);
-	}
-
-	matrix = malloc(numVertices * numVertices * sizeof(int));
-	struct timeval start;
-	gettimeofday(&start, NULL);
-
-}
-
-void worker(int numThreads, int numVertices, int beginRow, int rowsToPopulate, int pID) {
-
-}
-
-/*
 void wtc_proc(int start, int end) {
-
+/*
 	struct timeval t1,t2;
 	long ts, tms;
 	int a, mult, n;
